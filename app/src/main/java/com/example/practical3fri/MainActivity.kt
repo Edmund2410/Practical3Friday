@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         when(view.id){
             R.id.box_one_text->view.setBackgroundColor(Color.GREEN)
             R.id.box_two_text->view.setBackgroundColor(Color.BLUE)
-            R.id.box_three_text->view.setBackgroundColor(Color.RED)
+            R.id.box_three_text->view.setBackgroundColor(Color.BLUE)
             R.id.box_four_text->view.setBackgroundColor(Color.MAGENTA)
             R.id.box_five_text->view.setBackgroundColor(Color.CYAN)
             else -> view.setBackgroundColor(Color.DKGRAY)
